@@ -1,0 +1,184 @@
+/*index*/
+html {
+    font-family: "Verdana";
+  }
+  
+  .hindex {
+    color: rgb(216, 212, 212);
+    display: inline-block;
+    text-align: left;
+    margin: 0px;
+    position: absolute;
+    top: 30%;
+  }
+  
+  .logocontainer {
+    height: 170px;
+    position: relative;
+  }
+  
+  .content {
+    background-image: url(../img/Background.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: calc(100vh - 100px);
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .logo {
+    display: inline-block;
+    width: 150px;
+  }
+  
+  .barra ul li a {
+    text-decoration: none;
+    color: rgb(117, 114, 114);
+    display: flex;
+    margin-top: 15px;
+    font-size: 22px;
+    width: 50px;
+    margin-bottom: 90px;
+  }
+  
+  .barra ul li :hover {
+    list-style-type: none;
+    transform: scale(1.1);
+    transition: all 1s;
+  }
+  
+  .barra ul {
+    padding-top: 50px;
+  }
+  
+  h1 {
+    color: rgb(248, 248, 248);
+    text-align: left;
+    margin: 0px;
+  }
+  
+  .social {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+  }
+  
+  /* Portfolio*/
+  .itemres {
+    border: 2px solid #e6e3e3;
+    border-radius: 20px;
+    height: 200px;
+  }
+  
+  .itemres:hover {
+    transform: scale(1.03);
+    transition: all 1s;
+  }
+  
+  .item1res {
+    background-image: url(../img/indumentaria.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .item2res {
+    background-image: url(../img/libros.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .item3res {
+    background-image: url(../img/Empresa.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .item4res {
+    background-image: url(../img/setup.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .item5res {
+    background-image: url(../img/setup.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .item6res {
+    background-image: url(../img/muebles.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /*personal information*/
+  .informacionpersonal {
+    margin-top: 250px;
+  }
+  
+  /* skills */
+  .lorem1 {
+    color: rgb(189, 189, 194);
+    width: 500px;
+  }
+  
+  /*social*/
+  .rbarra ul li a {
+    display: flex;
+    font-size: 30px;
+    margin-top: 100px;
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+  }
+  
+  .redes--twitter {
+    background: #51aff8;
+  }
+  .redes--twitter:hover {
+    background: white;
+  }
+  .redes--twitter:hover .red__nombre {
+    color: #51aff8;
+  }
+  
+  .redes--facebook {
+    background: #2956a3;
+  }
+  .redes--facebook:hover {
+    background: white;
+  }
+  .redes--facebook:hover .red__nombre {
+    color: #2956a3;
+  }
+  
+  .redes--instagram {
+    background: pink;
+  }
+  .redes--instagram:hover {
+    background: white;
+  }
+  .redes--instagram:hover .red__nombre {
+    color: pink;
+  }
+  
+  .redes--linkedin {
+    background: #0076b8;
+  }
+  .redes--linkedin:hover {
+    background: white;
+  }
+  .redes--linkedin:hover .red__nombre {
+    color: #0076b8;
+  }
+  
+  /* contact*/
+  /* mixin a modo de practica*/
+  .box {
+    height: 50px;
+    width: 500px;
+  }/*# sourceMappingURL=estilos.css.map */
